@@ -5,9 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // For GitHub Pages deployment - set your repo name
-  // basePath: '/your-repo-name',
-  // assetPrefix: '/your-repo-name/',
+  basePath: '/home',
+  assetPrefix: '/home/',
 };
 
 export default nextConfig;
